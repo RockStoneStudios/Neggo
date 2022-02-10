@@ -1,0 +1,308 @@
+.container{
+    display: flex;
+    background-color: #fff;
+    
+}
+
+.info{
+    margin: 20px 60px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items :center;
+    justify-content: flex-start;
+    
+}
+
+.infoTitle{
+    color:  #228CA5;
+    font-size: 50px;
+    line-height: 50px;
+    text-align:start;
+    font-weight: 100;
+}
+.infoParrafo{
+    color: #72C67D;
+    font-size: 20px;
+    width: 350px;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    letter-spacing: 1px;
+}
+
+.infoButton{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    border: none;
+    background-color: #00A6B7;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.infoImage{
+    flex: 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.infoPath{
+    width: 100%;
+    height: 478px;
+   clip-path: polygon(0 0,50% 2%,100% 12%,100% 80%,30% 100%,0% 65%);
+   background: linear-gradient(164.29deg, #228CA5 21.98%, #72C67D 162.6%);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ 
+   flex-wrap: wrap;
+   
+   overflow: hidden;
+   position: relative;
+ 
+}
+
+.titlePath{
+  position: absolute;
+  color: white;
+  top: 10px;
+}
+
+.infoPath1{
+  width: 20%;
+  height: 300px;
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 10px 1px rgba(238, 232, 232, 0.6);
+    
+}
+
+.tituloPath{
+    color: #004B72;
+}
+
+.parrafoPath{
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+    font-size: 14px;
+}
+
+.buttonPath{
+    border: none;
+    background-color: #228CA5;
+    padding: 8px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+
+}
+
+.invitacion{
+    display: flex;
+    align-items: center;
+  
+}
+
+.invitacionImage{
+    flex: 3;
+    background :url('../Home/../../assets/fondotargeta.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    margin-left: 120px;  
+    margin-top: 50px;
+    transform: scale(1.1);
+}
+
+.invitacionInfo{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.invitacionTitle{
+    color: #00A6B7 ;
+    padding: 10px;
+    margin-left: 25px;
+    font-size:40px ;
+    margin-top: 10px;
+}
+
+.invitacionParrafo{
+ color: #4d4d4d;
+ padding: 5px;
+ position: absolute;
+ margin: 0px 50px;
+ top: 80px;
+ left: 10px;
+
+    
+}
+
+.invitacionParrafo2{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+    color: #4d4d5d;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    
+
+}
+
+.invitacionParrafo2 > span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.indicadores {
+    width: 100%;
+    height: 117px;
+    background-color: #228CA5;
+ 
+}
+
+.indicadoresTitle{
+    width: 100%;
+    height: 40%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+
+
+.indicadoresItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+
+.infoItem{
+    margin-left: 10px;  
+   color: white;
+   font-size: 18px;
+   letter-spacing: .8px;
+   font-weight: 600;
+}
+
+.infoItem > span{
+   
+    color: #72C67D;
+}
+
+.formulario{
+    background-color: #ccc;
+    width: 50%;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.sombraForm{
+    width: 95%;
+    position: absolute;
+    top: 20px;
+    background-color: #E6E6E6;;
+}
+
+.formI{
+    margin-top: 10px;
+   background-color: white;
+   margin-left: 10px;
+   border-radius: 12px;
+   display: flex;
+   flex-direction: column;
+     
+}
+
+.formI > h1{
+    color: #004B72;
+    padding: 0 20px;
+}
+
+.formI > label{
+    color: #004B72;
+    margin-left: 10px;
+}
+
+ .inputNombre{
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .inputNombre >label{
+    color: #004B72;
+    margin-left: 20px;
+ }
+
+.inputText{
+  width: 60%;   
+  margin: 5px 20px;
+  border : 1.3px solid #3DA097;;
+  border-radius: 10px;
+  height: 20px;
+  
+  
+}
+
+.correoTel{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.inputCorreo{
+   width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputTelefono{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.correoTel > .inputCorreo >label{
+    color: #004B72;
+    margin-left: 20px;
+}
+
+.correoTel > .inputTelefono >label{
+    color: #004B72;
+    margin-left: 20px;
+}

@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    background-color: #fff;
+    height: 70px;
+    
+    
+}
+
+.navbarLogo{
+    margin-left:30px ;
+    margin-top: 5px;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarListItem{
+    flex: 6;
+    align-items: center;
+}
+
+.listNavbar{
+   display: flex;
+   align-items: center;
+   
+}
+
+.navbarItem{
+    list-style: none;
+    margin-left: 15px;
+    color: #004B72;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.navbarButtonSesion{
+    border: none;
+    background: linear-gradient(0deg, #72C67D, #72C67D);
+    border-radius: 10px;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.navbarButtonUnete{
+    background: linear-gradient(0deg, #00A6B7, #00A6B7);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
