@@ -1,0 +1,94 @@
+.containerFooter{
+    background-color:  #004B72;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footerContactos{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+       
+}
+.tituloFooter{
+     display: flex;
+     color: #87CDDE;
+     align-self: flex-start;
+     margin-left: 90px;
+}
+
+
+.listContactos{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+
+.logoContactos{
+    width: 20px;
+    height: 20px;
+    margin:15px;
+
+}
+
+.footerEnlaces{
+    width: 30%;
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+.footerEnlaces > h2{
+    color: #87CDDE;
+    letter-spacing: 1px;
+    align-self: flex-start;
+    opacity: 0.85;
+    margin-left: 32px;
+   
+}
+
+
+
+
+.listEnlaces{
+    font-size: 17px;
+
+    list-style: none;
+    line-height: 26px;
+    color: white;
+}
+
+
+.footerLegal{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.footerLegal > h2{
+  color: #87CDDE ;
+  letter-spacing: 0.5px;
+}
+
+.listLegal{
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.footerRedes{
+    list-style: none;
+    display: flex;
+    
+}
+
+.footerRedes li{
+    margin: 100px 20px 0px 0px ;
+}

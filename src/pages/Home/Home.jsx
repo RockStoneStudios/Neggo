@@ -9,6 +9,8 @@ import salario from '../../assets/salario.png';
 import bus from '../../assets/bus.png';
 import dolar from '../../assets/dolar.png';
 import euro from '../../assets/euro.png';
+import log from '../../assets/log.png';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -26,6 +28,9 @@ const Home = () => {
 
           </div>
         
+        <div className='infoPathPadre'>
+
+      
           <div className='infoPath'>
               <h1 className='titlePath'>Herramientas Financieras</h1>
                 <div className='infoPath1'>
@@ -36,7 +41,7 @@ const Home = () => {
                     <p className='parrafoPath'>Pronto Podras Solicitar tu Credito en nuestra plataforma, estamos trabajando para ti</p>
 
                 </div>
-                <div className='infoPath1'>
+                <div className='infoPath2'>
               
                    <img className='infoPathIcon' src={path3} alt= ''/>
                 
@@ -44,7 +49,7 @@ const Home = () => {
                     <p className='parrafoPath'>Calcula cuanto debes ahorrar, para alcanzar eso que tanto quieres</p>
                     <button className='buttonPath'>Inicia aqui</button>
                 </div>
-                <div className='infoPath1'>
+                <div className='infoPath3'>
               
                    <img className='infoPathIcon' src={path2} alt= ''/>
                     <h2  className='tituloPath'>Presupuesto</h2>
@@ -52,8 +57,8 @@ const Home = () => {
                     <button className='buttonPath'>Inicia aqui</button>
                 </div>
                 
-            </div>
-
+             </div>
+             </div>
             <div className='invitacion'>
                 <div className='invitacionImage'>
                  <img className='imagenTargeta' src={targeta} alt="" />
@@ -92,6 +97,7 @@ const Home = () => {
                   </div>
               </div>
             </div>
+            <div className='containerFormulario'>
             <div className='formulario'>
                <div className='sombraForm'>
                <form  className= "formI">
@@ -111,13 +117,27 @@ const Home = () => {
                     <input className = 'inputText'  type="tel" id='inputTelefono' />
                     </div>
                      </div>
-                   
                     
-                     <textarea className ='inputTextArea'></textarea>
+                    <textarea className ='inputTextArea'></textarea>
+                 <button className='buttonForm'>Enviar</button>
                 </form>
                </div>
+                <div className="logoGeneral">
+                <div className='logoSuper '>
+                 
+                   <div className="cuadroAzulClaro"></div>
+                  <div className='logoSuperior'>
+
+                  <img  src={log} alt = ""/>
+                  </div>
+                  
+                </div>
+                </div>
+               
+              </div>
+                 <div className='containerBottom'></div>  
             </div>
-          
+          <Footer/>
          
       </>
   )
