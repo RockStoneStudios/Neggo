@@ -1,0 +1,14 @@
+.label{
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+
+}
+
+.formula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+

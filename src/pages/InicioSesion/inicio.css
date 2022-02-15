@@ -1,0 +1,50 @@
+.container{
+    background: linear-gradient(0deg, #004B72 12.33%, #72C67D 192.01%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.cerrar {
+    position: absolute;
+}
+
+.container > h1{
+    color: white;
+    font-size: 45px;
+    margin-top: 170px;
+}
+
+.inicio-botones{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inicio{
+    background-color: #72C67D;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.crea{
+    margin-top: 25px;
+    background-color: #00A6B7;
+    border: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+}

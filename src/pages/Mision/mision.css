@@ -1,0 +1,141 @@
+.mision-container{
+    position: relative;
+    
+}
+
+.contenido-principal{
+    display: flex;
+   
+
+}
+
+.intermedio{
+    width: 163px;
+    height: 842px;
+    background: linear-gradient(270deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    left: 369px;
+    z-index:1;
+}
+
+.imagenes-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.contenedor-Texto{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 25px 10px;
+    padding: 50px;
+    z-index: 2;
+}
+
+
+
+.historia{
+    color: #228CA5;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+
+.texto-historia{
+    color: #4d4d4d;
+    font-size: 18px;
+}
+
+
+.familia{
+    position: absolute;
+     top: 800px;
+     width: 100%;
+     min-width: 480px;
+     height: 900px;
+     z-index: 3;
+     background: linear-gradient(182.73deg, #228CA5 6.84%, #FFFFFF 80.41%);
+     clip-path: polygon(0% 4%,31% 0%,100% 8% ,100% 100%, 0% 100%);
+    }
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    .image-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+
+.imagen{
+    position: relative;
+    width: 286px;
+    height: 320px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 8px 5px 5px rgb(182, 175, 175);
+    padding: 8px;
+    
+
+}
+
+.borroso{
+    width: 164px;
+    height: 143px;
+    position: absolute;
+    left: 25px;
+    top: 62px;
+    background: linear-gradient(0deg, #F9F9F9 10.37%, rgba(249, 249, 249, 0) 33.4%);
+
+}
+
+.nombre-imagen{
+    color:  #004B72;
+    font-weight: 400;
+}
+
+.ceo-imagen{
+    color: #004B72;
+    font-size: 11px;
+    position: absolute;
+    top: 230px;
+    
+     
+}
+
+.boton-img{
+    margin-top: 25px;
+    
+}
+
+.boton-imagen{
+    margin-top: 20px;
+    background-color: #228CA5;
+    border:none;
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+

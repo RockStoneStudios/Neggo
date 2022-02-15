@@ -7,6 +7,7 @@
     justify-content: start;
     align-items: center;
     background-color:  #045683;
+    opacity: 0.9;
 }
 
 .cerrar{
@@ -29,7 +30,7 @@
     font-size: 35px;
 }
 
-.logingUser{
+.loginUser{
     text-align: center;
     font-size: 30px;
     color: white;
@@ -47,7 +48,7 @@
 .inputLogin{
     border: none;
     background-color: #045683;
-    border-bottom: 2px solid ;
+    border-bottom: 1px solid white;
     width: 340px;
     color: white;
     height: 30px;
@@ -61,6 +62,17 @@
     text-align: center;
     line-height: 20px;
     border-bottom: 1px solid white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.olvidoLogin1{
+    margin-top: 50px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 20px;
+    
     padding: 8px;
     cursor: pointer;
 }
@@ -89,6 +101,7 @@
 .logo{
    
     width: 150px;
+    color: #57b5be;
    
     
 }

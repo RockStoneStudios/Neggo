@@ -8,7 +8,7 @@ const InicioSesion = () => {
     <div className='loginContainer'>
        <img className = "cerrar" src={cerrar} alt="" />
         <h1 className='loginTitle'>Bienvenido de nuevo</h1>
-        <span className='logingUser'>Usuario</span>
+        <span className='loginUser'>Usuario</span>
         <form className='loginForm'>
           <input className='inputLogin' type="text" />
           <span className='olvidoLogin'>Olvide mi usuario/contraseña</span>
