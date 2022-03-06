@@ -156,7 +156,7 @@
 
 .invitacionImage{
     flex: 3;
-    background :url('../Home/../../assets/fondotargeta.png');
+    background :url('../../assets/fondotargeta.png');
     background-size: contain;
     background-repeat: no-repeat;  
     margin-left: 120px;  

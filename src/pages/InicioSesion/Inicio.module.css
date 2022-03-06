@@ -3,11 +3,17 @@
     position: relative;
     width: 100%;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .cerrar {
     position: absolute;
+    left: 15px;
+    top: 20px;
+
 }
 
 .container > h1{
@@ -16,14 +22,14 @@
     margin-top: 170px;
 }
 
-.inicio-botones{
+.inicio_botones{
     margin-top: 65px;
     display: flex;
     flex-direction: column;
     
 }
 
-.inicio{
+.inicio {
     background-color: #72C67D;
     border: none;
     color: white;
@@ -36,7 +42,7 @@
 
 }
 
-.crea{
+.crea {
     margin-top: 25px;
     background-color: #00A6B7;
     border: none;

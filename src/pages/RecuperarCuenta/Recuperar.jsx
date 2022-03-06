@@ -1,5 +1,5 @@
 import cerrar from '../../assets/cerrar.png';
-import './recuperar.css';
+import '../../Styles/Recuperar.Module.css'
 import logon from '../../assets/nlogo.png';
 import ellipse from '../../assets/ellipse.png';
 

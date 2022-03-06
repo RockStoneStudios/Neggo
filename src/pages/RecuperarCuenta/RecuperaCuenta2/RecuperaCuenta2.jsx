@@ -1,8 +1,8 @@
 import cerrar from '../../../assets/cerrar.png';
 import logon from '../../../assets/nlogo.png';
 import ellipse from '../../../assets/ellipse.png';
-import '../recuperar.css';
-import './recuperaCuenta2.css';
+import '../../../Styles/Recuperar.Module.css';
+import '../../../Styles/RecuperaCuenta2.Module.css';
 
 
 const RecuperaCuenta2 = () => {

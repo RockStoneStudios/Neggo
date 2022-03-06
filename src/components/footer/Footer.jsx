@@ -7,7 +7,7 @@ import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.png';
 import whatsapp from '../../assets/whatsapp.png';
 
-import './footer.css'
+import '../../Styles/Footer.Module.css';
 
 const Footer = () => {
   return (

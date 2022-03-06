@@ -10,13 +10,18 @@ import Inicio from "./pages/InicioSesion/Inicio";
 import Blog from "./pages/Blog/Blog";
 import Footer from "./components/footer/Footer";
 import Mision from "./pages/Mision/Mision";
+import Educacion from "./pages/EducacionFinanciera/Educacion";
+import Ahorro from "./pages/Ahorro/Ahorro";
 
 function App() {
   return (
     <div className="App">
-      <Mision/>
-      <Footer/>
+      <Ahorro/>
+      {/* <Educacion/> */}
+      {/* <Mision/>
+      */}
       {/* <Blog/> */}
+
     
       {/* <Inicio/> */}
       {/* <RecuperaCuenta2/> */}
