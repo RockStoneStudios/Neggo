@@ -433,7 +433,7 @@
 
 .texto_abc{
     width: 60%;
-    color: #1e58d6;
+    color: #004B72;
 }
 
 .texto_abc > h1{
@@ -443,6 +443,7 @@
 .texto_abc >p{
     padding: 0px 50px;
     margin-left: 250px;
+    
 }
 
 .imagen_abc{

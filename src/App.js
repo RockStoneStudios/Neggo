@@ -13,26 +13,32 @@ import Mision from "./pages/Mision/Mision";
 import Educacion from "./pages/EducacionFinanciera/Educacion";
 import Ahorro from "./pages/Ahorro/Ahorro";
 import EdFinanciera from "./pages/EducacionFinanciera/EdFinanciera";
+import Simulador from "./pages/Simulador/Simulador";
+
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
+
 function App() {
   return (
-    <div className="App">
-       <EdFinanciera/>
-      {/* <Ahorro/>  */}
-       {/* <Educacion/> */}
-       {/* <Mision/> */}
-      
-      {/* <Blog/> */}
+     <Router>
+       <Routes>
+          <Route path="/" element={ <Home/>}/>
+          <Route path="/inicio" element={<Inicio/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/nosotros" element={<Mision/>}/>
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/ahorro" element={<Ahorro/>} />
+          <Route path="/educacion" element={<Educacion/>} />
+          <Route path="/edfinanciera" element={<EdFinanciera/>} />
+          <Route path="/simulador" element={<Simulador/>} />
+          <Route path="/recupera_cuenta" element={<RecuperaCuenta2/>} />
+          <Route path="/login_password" element={<LoginPassword/>} />
+          <Route path="/validar_codigo" element={<ValidaCodigo/>} />
+          <Route path="/recupera" element={<Recuperar/>} />
+          <Route path="/recuperaC" element={<RecuperaC1/>} />
+       </Routes>
 
-    
-      {/* <Inicio/> */}
-      {/* <RecuperaCuenta2/> */}
-      {/* <ValidaCodigo/> */}
-      {/* <RecuperaC1/> */}
-      {/* <Recuperar/> */}
-      {/* <Login/> */}
-      {/* <LoginPassword/> */}
-      {/* <Home/> */}
-    </div>
+      </Router>
+
   );
 }
 

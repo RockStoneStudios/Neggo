@@ -1,5 +1,6 @@
 import '../../Styles/Navbar.Module.css';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,15 +10,27 @@ const Navbar = () => {
           </div>
           <div className='navbarListItem'>
               <ul className='listNavbar'>
-                  <li className='navbarItem'>Inicio</li>
+                  <Link to="/">
+                   <li className='navbarItem'>Inicio</li>
+                  </Link>
+                  <Link to="/educacion">
                   <li className='navbarItem'>Educacion Financiera</li>
+                  </Link>
+                  <Link to="/blog">
                   <li className='navbarItem'>Blog</li>
+                  </Link>
+                  <Link to="/nosotros">
                   <li className='navbarItem'>Nosotros</li>
+                  </Link>
                   <li className='navbarItem'>
+                      <Link to="/login">
                       <button className='navbarButtonSesion'>Inicio Sesion</button>
+                      </Link>
                   </li>
                   <li className='navbarItem'>
+                      <Link to="/inicio">
                       <button className='navbarButtonUnete'>Únete a Neggo</button>
+                      </Link>
                   </li>
 
               </ul>
