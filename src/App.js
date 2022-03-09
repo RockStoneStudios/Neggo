@@ -12,14 +12,15 @@ import Footer from "./components/footer/Footer";
 import Mision from "./pages/Mision/Mision";
 import Educacion from "./pages/EducacionFinanciera/Educacion";
 import Ahorro from "./pages/Ahorro/Ahorro";
-
+import EdFinanciera from "./pages/EducacionFinanciera/EdFinanciera";
 function App() {
   return (
     <div className="App">
-      <Ahorro/>
-      {/* <Educacion/> */}
-      {/* <Mision/>
-      */}
+       <EdFinanciera/>
+      {/* <Ahorro/>  */}
+       {/* <Educacion/> */}
+       {/* <Mision/> */}
+      
       {/* <Blog/> */}
 
     
